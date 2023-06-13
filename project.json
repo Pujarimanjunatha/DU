@@ -1,0 +1,66 @@
+{
+  "name": "Data Extraction Through DU",
+  "description": "Data Extraction Through DU",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.20.0-preview]",
+    "UiPath.Excel.Activities": "[2.20.0-preview]",
+    "UiPath.IntelligentOCR.Activities": "[6.9.0]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.OCR.Activities": "[3.15.1]",
+    "UiPath.OmniPage.Activities": "[1.15.0]",
+    "UiPath.Persistence.Activities": "[1.4.4]",
+    "UiPath.System.Activities": "[23.4.1-preview]",
+    "UiPath.Testing.Activities": "[23.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.4.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": true,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d69b9502-4222-406a-8ae6-588cc1fdbdc4",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
